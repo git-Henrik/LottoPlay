@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC88AA4929F98B9100741EA3 /* LottoPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA4829F98B9100741EA3 /* LottoPlayApp.swift */; };
+		DC88AA4B29F98B9100741EA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA4A29F98B9100741EA3 /* ContentView.swift */; };
+		DC88AA4D29F98B9300741EA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC88AA4C29F98B9300741EA3 /* Assets.xcassets */; };
+		DC88AA5029F98B9300741EA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC88AA4F29F98B9300741EA3 /* Preview Assets.xcassets */; };
+		DC88AA5929F9AD1C00741EA3 /* LottoRegression.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA5829F9AD1C00741EA3 /* LottoRegression.mlmodel */; };
+		DC88AA5B29F9AE0D00741EA3 /* LottoRegression2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA5A29F9AE0D00741EA3 /* LottoRegression2.mlmodel */; };
+		DC88AA5D29F9AE1200741EA3 /* LottoRegression3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA5C29F9AE1200741EA3 /* LottoRegression3.mlmodel */; };
+		DC88AA5F29F9AE1700741EA3 /* LottoRegression4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA5E29F9AE1700741EA3 /* LottoRegression4.mlmodel */; };
+		DC88AA6129F9AE1B00741EA3 /* LottoRegression5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA6029F9AE1B00741EA3 /* LottoRegression5.mlmodel */; };
+		DC88AA6329F9AE2000741EA3 /* LottoRegression6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA6229F9AE2000741EA3 /* LottoRegression6.mlmodel */; };
+		DC88AA6729F9BB8900741EA3 /* PowerballInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA6629F9BB8900741EA3 /* PowerballInput.swift */; };
+		DC88AA6929F9BBAD00741EA3 /* PowerballOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA6829F9BBAD00741EA3 /* PowerballOutput.swift */; };
+		DC88AA6B29F9BBE500741EA3 /* MLMultiArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA6A29F9BBE500741EA3 /* MLMultiArray.swift */; };
+		DC88AA6D29F9BD2800741EA3 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88AA6C29F9BD2800741EA3 /* LottoViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC88AA4529F98B9100741EA3 /* LottoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC88AA4829F98B9100741EA3 /* LottoPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoPlayApp.swift; sourceTree = "<group>"; };
+		DC88AA4A29F98B9100741EA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC88AA4C29F98B9300741EA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC88AA4F29F98B9300741EA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC88AA5829F9AD1C00741EA3 /* LottoRegression.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LottoRegression.mlmodel; sourceTree = "<group>"; };
+		DC88AA5A29F9AE0D00741EA3 /* LottoRegression2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LottoRegression2.mlmodel; sourceTree = "<group>"; };
+		DC88AA5C29F9AE1200741EA3 /* LottoRegression3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LottoRegression3.mlmodel; sourceTree = "<group>"; };
+		DC88AA5E29F9AE1700741EA3 /* LottoRegression4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LottoRegression4.mlmodel; sourceTree = "<group>"; };
+		DC88AA6029F9AE1B00741EA3 /* LottoRegression5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LottoRegression5.mlmodel; sourceTree = "<group>"; };
+		DC88AA6229F9AE2000741EA3 /* LottoRegression6.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LottoRegression6.mlmodel; sourceTree = "<group>"; };
+		DC88AA6629F9BB8900741EA3 /* PowerballInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerballInput.swift; sourceTree = "<group>"; };
+		DC88AA6829F9BBAD00741EA3 /* PowerballOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerballOutput.swift; sourceTree = "<group>"; };
+		DC88AA6A29F9BBE500741EA3 /* MLMultiArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLMultiArray.swift; sourceTree = "<group>"; };
+		DC88AA6C29F9BD2800741EA3 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC88AA4229F98B9100741EA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC88AA3C29F98B9100741EA3 = {
+			isa = PBXGroup;
+			children = (
+				DC88AA4729F98B9100741EA3 /* LottoPlay */,
+				DC88AA4629F98B9100741EA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC88AA4629F98B9100741EA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC88AA4529F98B9100741EA3 /* LottoPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC88AA4729F98B9100741EA3 /* LottoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				DC88AA4829F98B9100741EA3 /* LottoPlayApp.swift */,
+				DC88AA4A29F98B9100741EA3 /* ContentView.swift */,
+				DC88AA6C29F9BD2800741EA3 /* LottoViewModel.swift */,
+				DC88AA6629F9BB8900741EA3 /* PowerballInput.swift */,
+				DC88AA5829F9AD1C00741EA3 /* LottoRegression.mlmodel */,
+				DC88AA5A29F9AE0D00741EA3 /* LottoRegression2.mlmodel */,
+				DC88AA5C29F9AE1200741EA3 /* LottoRegression3.mlmodel */,
+				DC88AA5E29F9AE1700741EA3 /* LottoRegression4.mlmodel */,
+				DC88AA6029F9AE1B00741EA3 /* LottoRegression5.mlmodel */,
+				DC88AA6229F9AE2000741EA3 /* LottoRegression6.mlmodel */,
+				DC88AA4C29F98B9300741EA3 /* Assets.xcassets */,
+				DC88AA4E29F98B9300741EA3 /* Preview Content */,
+				DC88AA6829F9BBAD00741EA3 /* PowerballOutput.swift */,
+				DC88AA6A29F9BBE500741EA3 /* MLMultiArray.swift */,
+			);
+			path = LottoPlay;
+			sourceTree = "<group>";
+		};
+		DC88AA4E29F98B9300741EA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC88AA4F29F98B9300741EA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC88AA4429F98B9100741EA3 /* LottoPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC88AA5329F98B9300741EA3 /* Build configuration list for PBXNativeTarget "LottoPlay" */;
+			buildPhases = (
+				DC88AA4129F98B9100741EA3 /* Sources */,
+				DC88AA4229F98B9100741EA3 /* Frameworks */,
+				DC88AA4329F98B9100741EA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottoPlay;
+			productName = LottoPlay;
+			productReference = DC88AA4529F98B9100741EA3 /* LottoPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC88AA3D29F98B9100741EA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DC88AA4429F98B9100741EA3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = DC88AA4029F98B9100741EA3 /* Build configuration list for PBXProject "LottoPlay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC88AA3C29F98B9100741EA3;
+			productRefGroup = DC88AA4629F98B9100741EA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC88AA4429F98B9100741EA3 /* LottoPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC88AA4329F98B9100741EA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC88AA5029F98B9300741EA3 /* Preview Assets.xcassets in Resources */,
+				DC88AA4D29F98B9300741EA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC88AA4129F98B9100741EA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC88AA5929F9AD1C00741EA3 /* LottoRegression.mlmodel in Sources */,
+				DC88AA6329F9AE2000741EA3 /* LottoRegression6.mlmodel in Sources */,
+				DC88AA5D29F9AE1200741EA3 /* LottoRegression3.mlmodel in Sources */,
+				DC88AA5B29F9AE0D00741EA3 /* LottoRegression2.mlmodel in Sources */,
+				DC88AA6B29F9BBE500741EA3 /* MLMultiArray.swift in Sources */,
+				DC88AA6D29F9BD2800741EA3 /* LottoViewModel.swift in Sources */,
+				DC88AA6129F9AE1B00741EA3 /* LottoRegression5.mlmodel in Sources */,
+				DC88AA4B29F98B9100741EA3 /* ContentView.swift in Sources */,
+				DC88AA4929F98B9100741EA3 /* LottoPlayApp.swift in Sources */,
+				DC88AA5F29F9AE1700741EA3 /* LottoRegression4.mlmodel in Sources */,
+				DC88AA6729F9BB8900741EA3 /* PowerballInput.swift in Sources */,
+				DC88AA6929F9BBAD00741EA3 /* PowerballOutput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC88AA5129F98B9300741EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC88AA5229F98B9300741EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC88AA5429F98B9300741EA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LottoPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = BRXBZH3DV4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavinHenrik.LottoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC88AA5529F98B9300741EA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LottoPlay/Preview Content\"";
+				DEVELOPMENT_TEAM = BRXBZH3DV4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavinHenrik.LottoPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC88AA4029F98B9100741EA3 /* Build configuration list for PBXProject "LottoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC88AA5129F98B9300741EA3 /* Debug */,
+				DC88AA5229F98B9300741EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC88AA5329F98B9300741EA3 /* Build configuration list for PBXNativeTarget "LottoPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC88AA5429F98B9300741EA3 /* Debug */,
+				DC88AA5529F98B9300741EA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC88AA3D29F98B9100741EA3 /* Project object */;
+}
